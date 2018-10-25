@@ -6,34 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bootstrap Date picker">
     <meta name="author" content="Riyadh Ahmed">
-	<meta name="keyword" content="bootstrap,datepicker,date,jquery datepicker">
+    <meta name="keyword" content="bootstrap,datepicker,date,jquery datepicker">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/datepicker.css">	
-	
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" href="css/datepicker.css">
 
-	
-	<!--<script type="text/javascript" src="js/jquery-1.11.1.js"></script>-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
 
-</head>	
+
+    <!--<script type="text/javascript" src="js/jquery-1.11.1.js"></script>-->
+
+</head>
 <div class="container jumbotron">
     <div class="row">
+        <div class='col-md-12'>
+            <h2>Bootstrap Datepicker Example</h2>
+        </div>
+    </div>
+    <div class="row">
         <div class='col-sm-6'>
-            <div class = "form-group">
-				<label for = ""> Choose Date </label>
-				<input type = "text" class = "form-control" id = "start_date" name = "start_date" placeholder = "Click here to select date">
-				<span id = "error_amount" class = "has-error"></span>
-			</div>
-        </div>        
+            <div class="form-group">
+                <label for=""> Choose Date </label>
+                <input type="text" class="form-control" id="start_date" name="start_date" placeholder="Click here to select date">
+                <span id="error_amount" class="has-error"></span>
+            </div>
+        </div>
     </div>
 </div>
-<script type = "text/javascript">
+<script type="text/javascript">
     // When the document is ready
     $(document).ready(function () {
 
@@ -42,4 +47,3 @@
         });
     });
 </script>
-	
