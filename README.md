@@ -5,4 +5,4 @@ Download this file for working demo
 
 Output 
 
-![alt text](images/img.png)
+![alt text](images/datepicker.png)
